@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;900&display=swap');
+
+
+
+
+
+
+.container {  display: grid;
+    grid-template-columns: .5fr 1.2fr .8fr 1fr .5fr;
+    grid-template-rows: 1.1fr 0.9fr 1fr 1.1fr 1.1fr 1.2fr 1.2fr 0.8fr 0.8fr 0.8fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". heading heading heading ."
+      ". title title title ."
+      ". summary summary-info summary-info ."
+      ". experience experience-info1 experience-info2 ."
+      ". experience experience-info3 experience-info4 ."
+      ". education education-info1 education-info2 ."
+      ". education education-info3 education-info4 ."
+      ". skills skills-info skills-info ."
+      ". contact contact-info1 contact-info2 ."
+      ". contact contact-info3 contact-info4 .";
+  }
+  
+  .heading { grid-area: heading;
+    font-size: xx-large;
+    color: orange;
+    height: 50px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    
+}
+  
+  .title { grid-area: title;
+    font-family: 'Inter', sans-serif;
+    color: orange;
+    font-style:italic
+    
+}
+  
+  .summary { grid-area: summary;
+    
+}
+  .summary-info { grid-area: summary-info;
+    border-top: 4px solid orange
+}
+  
+  .experience { grid-area: experience;
+    
+}
+  .skills { grid-area: skills;
+   
+}
+  
+  .education { grid-area: education;
+    
+}
+  
+  .contact { grid-area: contact;
+    
+}
+  
+  .experience-info1 { grid-area: experience-info1;
+    border-top: 4px solid orange
+    
+}
+  
+  .experience-info2 { grid-area: experience-info2;
+    border-top: 4px solid orange
+    
+}
+  
+  .experience-info3 { grid-area: experience-info3;
+    
+}
+  
+  .experience-info4 { grid-area: experience-info4;
+    
+}
+  
+  .education-info1 { grid-area: education-info1;
+    border-top: 4px solid orange
+}
+  
+  .education-info2 { grid-area: education-info2;
+    border-top: 4px solid orange
+   
+}
+  
+  .education-info3 { grid-area: education-info3;
+    
+}
+  
+  .education-info4 { grid-area: education-info4;
+    
+}
+  
+  .skills-info { grid-area: skills-info;
+    border-top: 4px solid orange
+    
+}
+  
+  .contact-info1 { grid-area: contact-info1;
+    border-top: 4px solid orange
+   
+}
+  
+  .contact-info2 { grid-area: contact-info2;
+    border-top: 4px solid orange
+    
+}
+  
+  .contact-info3 { grid-area: contact-info3;
+    
+  }
+  
+  .contact-info4 { grid-area: contact-info4;
+   
+}
+  
+p{font-family: 'Inter', sans-serif;
+    
+}
+
+h2{font-family: 'Inter', sans-serif;
+    
+
+}
